@@ -11,7 +11,7 @@ int main(){
     int c[10] = {1,2,3,4,5,6,7,8,9,10};
     int *ptr = c;
     cout <<  "value of 1st elem " << *ptr << endl;
-    cout << "value of 5th elem" << *(ptr+4) << endl;
+    cout << "value of 5th elem " << *(ptr+4) << endl;
     ptr++;
     cout << "value of 1st elem " << *ptr << endl;
 
@@ -26,8 +26,4 @@ int main(){
     cout << endl << "The element via array notation is " << k[i][j] << endl;
 
     return 0;
-
-
-
-
 }
